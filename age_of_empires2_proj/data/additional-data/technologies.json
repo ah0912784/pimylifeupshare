@@ -1,0 +1,723 @@
+{
+"technologies": [
+	{
+		"id" : 1,
+		"name" : "Town Watch",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Town Center",
+		"cost" : "75F",
+		"research_time" : 25,
+		"effect" : "Building LOS +4"
+	},
+	{
+		"id" : 3,
+		"name" : "Town Patrol",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Town Center",
+		"cost" : "300F, 100G",
+		"research_time" : 40,
+		"effect" : "Building LOS +4"
+	},
+	{
+		"id" : 4,
+		"name" : "Treadmill Crane",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "University",
+		"cost" : "300F, 200W",
+		"research_time" : 50,
+		"effect" : "Villagers construct buildings 20% faster"
+	},
+	{
+		"id" : 5,
+		"name" : "Masonry",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "University",
+		"cost" : "150F, 175W",
+		"research_time" : 50,
+		"effect" : "Buildings +10% HP, +1 armor, +1 pierce armor, +3 building armor"
+	},
+	{
+		"id" : 6,
+		"name" : "Architecture",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "University",
+		"cost" : "300F, 200W",
+		"research_time" : 70,
+		"effect" : "Buildings +10% HP, +1 armor, +1 pierce armor, +3 building armor"
+	},
+	{
+		"id" : 7,
+		"name" : "Hoardings",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Castle",
+		"cost" : "400F, 400W",
+		"research_time" : 75,
+		"effect" : "Castles +21% HP"
+	},
+	{
+		"id" : 8,
+		"name" : "Conscription",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Castle",
+		"cost" : "150F, 150G",
+		"research_time" : 60,
+		"effect" : "Barracks, Archery Ranges, Stables, and Castles work 33% faster"
+	},
+	{
+		"id" : 9,
+		"name" : "Wheelbarrow",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Town Center",
+		"cost" : "175F, 50W",
+		"research_time" : 75,
+		"effect" : "Villagers carry 25% more and move 10% faster"
+	},
+	{
+		"id" : 10,
+		"name" : "Hand Cart",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Town Center",
+		"cost" : "300F, 200W",
+		"research_time" : 55,
+		"effect" : "Villagers carry 50% more and move 10% faster"
+	},
+	{
+		"id" : 12,
+		"name" : "Double-Bit Axe",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Lumber Camp",
+		"cost" : "100F, 50W",
+		"research_time" : 25,
+		"effect" : "Villagers gather wood 20% faster"
+	},
+	{
+		"id" : 13,
+		"name" : "Bow Saw",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Lumber Camp",
+		"cost" : "150F, 100W",
+		"research_time" : 50,
+		"effect" : "Villagers gather wood 20% faster"
+	},
+	{
+		"id" : 14,
+		"name" : "Two-Man Saw",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Lumber Camp",
+		"cost" : "300F, 200W",
+		"research_time" : 100,
+		"effect" : "Villagers gather wood 10% faster"
+	},
+	{
+		"id" : 15,
+		"name" : "Horse Collar",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Mill",
+		"cost" : "75F, 75W",
+		"research_time" : 20,
+		"effect" : "Farms provide +75 food before they need to be reseeded"
+	},
+	{
+		"id" : 16,
+		"name" : "Heavy Plow",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Mill",
+		"cost" : "125F, 125W",
+		"research_time" : 40,
+		"effect" : "Farms provide +125 food, Villagers carry +1 food"
+	},
+	{
+		"id" : 17,
+		"name" : "Crop Rotation",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Mill",
+		"cost" : "250F, 250W",
+		"research_time" : 70,
+		"effect" : "Farms provide +175 food before they need to be reseeded"
+	},
+	{
+		"id" : 18,
+		"name" : "Gold Mining",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Mining Camp",
+		"cost" : "100F, 75W",
+		"research_time" : 30,
+		"effect" : "Villagers gather gold 15% faster"
+	},
+	{
+		"id" : 19,
+		"name" : "Gold Shaft Mining",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Mining Camp",
+		"cost" : "200F, 150W",
+		"research_time" : 75,
+		"effect" : "Villagers gather gold 15% faster"
+	},
+	{
+		"id" : 20,
+		"name" : "Stone Mining",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Mining Camp",
+		"cost" : "100F, 75W",
+		"research_time" : 30,
+		"effect" : "Villagers gather stone 15% faster"
+	},
+	{
+		"id" : 21,
+		"name" : "Stone Shaft Mining",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Mining Camp",
+		"cost" : "200F, 150W",
+		"research_time" : 75,
+		"effect" : "Villagers gather stone 15% faster"
+	},
+	{
+		"id" : 23,
+		"name" : "Caravan",
+		"release_id" : 2,
+		"age" : 3,
+		"researched_at" : "Market",
+		"cost" : "200F, 200G",
+		"research_time" : 40,
+		"effect" : "Trade Carts and Trade Cogs move 50% faster"
+	},
+	{
+		"id" : 24,
+		"name" : "Coinage",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Market",
+		"cost" : "200F, 100G",
+		"research_time" : 70,
+		"effect" : "Tribute fee reduced to 20%"
+	},
+	{
+		"id" : 25,
+		"name" : "Banking",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Market",
+		"cost" : "300F, 200G",
+		"research_time" : 70,
+		"effect" : "Tributes are free"
+	},
+	{
+		"id" : 26,
+		"name" : "Guilds",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Market",
+		"cost" : "300F, 200G",
+		"research_time" : 50,
+		"effect" : "Trading fee reduced to 15%"
+	},
+	{
+		"id" : 27,
+		"name" : "Gillnets",
+		"release_id" : 3,
+		"age" : 3,
+		"researched_at" : "Dock",
+		"cost" : "150F, 200W",
+		"research_time" : 45,
+		"effect" : "Fishing Ships work +25% faster"
+	},
+	{
+		"id" : 28,
+		"name" : "Redemption",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Monastery",
+		"cost" : "475G",
+		"research_time" : 50,
+		"effect" : "Monks and Missionaries can convert enemy buildings and siege units"
+	},
+	{
+		"id" : 29,
+		"name" : "Atonement",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Monastery",
+		"cost" : "325G",
+		"research_time" : 40,
+		"effect" : "Monks and Missionaries can convert enemy Monks and Missionaries"
+	},
+	{
+		"id" : 30,
+		"name" : "Herbal Medicine",
+		"release_id" : 2,
+		"age" : 3,
+		"researched_at" : "Monastery",
+		"cost" : "350G",
+		"research_time" : 35,
+		"effect" : "Units garrisoned in buildings heal 6× faster."
+	},
+	{
+		"id" : 31,
+		"name" : "Heresy",
+		"release_id" : 2,
+		"age" : 3,
+		"researched_at" : "Monastery",
+		"cost" : "1000",
+		"research_time" : 60,
+		"effect" : "Converted units\/buildings die\/are destroyed instead of taking the enemy's color"
+	},
+	{
+		"id" : 32,
+		"name" : "Sanctity",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Monastery",
+		"cost" : "120G",
+		"research_time" : 60,
+		"effect" : "Monk and Missionary hit points +15"
+	},
+	{
+		"id" : 33,
+		"name" : "Fervor",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Monastery",
+		"cost" : "140G",
+		"research_time" : 50,
+		"effect" : "Monk and Missionary speed +15%"
+	},
+	{
+		"id" : 34,
+		"name" : "Faith",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Monastery",
+		"cost" : "750F, 1000G",
+		"research_time" : 60,
+		"effect" : "Increases conversion resistance"
+	},
+	{
+		"id" : 35,
+		"name" : "Illumination",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Monastery",
+		"cost" : "120G",
+		"research_time" : 65,
+		"effect" : "Monks and Missionaries regain their faith faster after a successful conversion"
+	},
+	{
+		"id" : 36,
+		"name" : "Block Printing",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Monastery",
+		"cost" : "200G",
+		"research_time" : 55,
+		"effect" : "Monk and Missionary conversion range and Line of Sight +3"
+	},
+	{
+		"id" : 37,
+		"name" : "Theocracy",
+		"release_id" : 2,
+		"age" : 4,
+		"researched_at" : "Monastery",
+		"cost" : "200G",
+		"research_time" : 75,
+		"effect" : "Only one Monk or Missionary must rest after a successful conversion"
+	},
+	{
+		"id" : 38,
+		"name" : "Supplies",
+		"release_id" : 8,
+		"age" : 2,
+		"researched_at" : "Barracks",
+		"cost" : "150F, 100G",
+		"research_time" : 35,
+		"effect" : "Militia line costs -15 food\n"
+	},
+	{
+		"id" : 39,
+		"name" : "Squires",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Barracks",
+		"cost" : "100F",
+		"research_time" : 40,
+		"effect" : "Infantry speed +10%"
+	},
+	{
+		"id" : 40,
+		"name" : "Arson",
+		"release_id" : 4,
+		"age" : 3,
+		"researched_at" : "Barracks",
+		"cost" : "150F, 50G",
+		"research_time" : 25,
+		"effect" : "Infantry +2 attack vs standard buildings"
+	},
+	{
+		"id" : 41,
+		"name" : "Forging",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Blacksmith",
+		"cost" : "150F",
+		"research_time" : 50,
+		"effect" : "Infantry and cavalry +1 attack"
+	},
+	{
+		"id" : 42,
+		"name" : "Iron Casting",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Blacksmith",
+		"cost" : "220F, 120G",
+		"research_time" : 75,
+		"effect" : "Infantry and cavalry +1 attack"
+	},
+	{
+		"id" : 43,
+		"name" : "Blast Furnace",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Blacksmith",
+		"cost" : "275F, 225G",
+		"research_time" : 100,
+		"effect" : "Infantry and cavalry +2 attack"
+	},
+	{
+		"id" : 44,
+		"name" : "Scale Mail Armor",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Blacksmith",
+		"cost" : "100F",
+		"research_time" : 40,
+		"effect" : "Infantry armor +1\/+1"
+	},
+	{
+		"id" : 45,
+		"name" : "Chain Mail Armor",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Blacksmith",
+		"cost" : "200F, 100G",
+		"research_time" : 55,
+		"effect" : "Infantry armor +1\/+1"
+	},
+	{
+		"id" : 46,
+		"name" : "Plate Mail Armor",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Blacksmith",
+		"cost" : "300F, 150G",
+		"research_time" : 70,
+		"effect" : "Infantry armor +1\/+2"
+	},
+	{
+		"id" : 47,
+		"name" : "Thumb Ring",
+		"release_id" : 2,
+		"age" : 3,
+		"researched_at" : "Archery Range",
+		"cost" : "300F, 250W",
+		"research_time" : 45,
+		"effect" : "Archers fire faster and with 100% accuracy"
+	},
+	{
+		"id" : 48,
+		"name" : "Parthian Tactics",
+		"release_id" : 2,
+		"age" : 4,
+		"researched_at" : "Archery Range",
+		"cost" : "200F, 250G",
+		"research_time" : 65,
+		"effect" : "Mounted archer armor +1\/+2 and +2 or +4 attack against Pikemen"
+	},
+	{
+		"id" : 49,
+		"name" : "Fletching",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Blacksmith",
+		"cost" : "100F, 50G",
+		"research_time" : 30,
+		"effect" : "Arrow using units and buildings +1 attack and range"
+	},
+	{
+		"id" : 50,
+		"name" : "Bodkin Arrow",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Blacksmith",
+		"cost" : "200F, 100G",
+		"research_time" : 35,
+		"effect" : "Arrow using units and buildings +1 attack and range"
+	},
+	{
+		"id" : 51,
+		"name" : "Bracer",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Blacksmith",
+		"cost" : "300F, 200G",
+		"research_time" : 40,
+		"effect" : "Arrow using units and buildings +1 attack and range"
+	},
+	{
+		"id" : 52,
+		"name" : "Padded Archer Armor",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Blacksmith",
+		"cost" : "100F",
+		"research_time" : 40,
+		"effect" : "Archer armor +1\/+1"
+	},
+	{
+		"id" : 53,
+		"name" : "Leather Archer Armor",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Blacksmith",
+		"cost" : "150F, 150G",
+		"research_time" : 55,
+		"effect" : "Archer armor +1\/+1"
+	},
+	{
+		"id" : 54,
+		"name" : "Ring Archer Armor",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Blacksmith",
+		"cost" : "250F, 250G",
+		"research_time" : 70,
+		"effect" : "Archer armor +1\/+2"
+	},
+	{
+		"id" : 55,
+		"name" : "Ballistics",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "University",
+		"cost" : "300W, 175G",
+		"research_time" : 60,
+		"effect" : "Improves missile unit's accuracy at moving targets"
+	},
+	{
+		"id" : 57,
+		"name" : "Heated Shot",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "University",
+		"cost" : "350F, 100G",
+		"research_time" : 30,
+		"effect" : "Towers +125%, Castles, Harbors, and Kreposts +4 attack vs ships"
+	},
+	{
+		"id" : 58,
+		"name" : "Murder Holes",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "University",
+		"cost" : "200F, 100S",
+		"research_time" : 60,
+		"effect" : "Removes towers and Castles minimum range"
+	},
+	{
+		"id" : 59,
+		"name" : "Arrowslits",
+		"release_id" : 4,
+		"age" : 4,
+		"researched_at" : "University",
+		"cost" : "250F, 250W",
+		"research_time" : 25,
+		"effect" : "Watch Tower\/Guard Tower\/Keep +1\/+2\/+3 attack"
+	},
+	{
+		"id" : 60,
+		"name" : "Chemistry",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "University",
+		"cost" : "300F, 200G",
+		"research_time" : 100,
+		"effect" : "Allows creation of gunpowder units; +1 attack for siege units, archers, and defensive structures"
+	},
+	{
+		"id" : 61,
+		"name" : "Siege Engineers",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "University",
+		"cost" : "500F, 600W",
+		"research_time" : 45,
+		"effect" : "Siege units +20% attack against buildings, +1 range (except rams)"
+	},
+	{
+		"id" : 62,
+		"name" : "Bloodlines",
+		"release_id" : 2,
+		"age" : 2,
+		"researched_at" : "Stable",
+		"cost" : "150F, 100G",
+		"research_time" : 50,
+		"effect" : "Mounted units +20 HP"
+	},
+	{
+		"id" : 63,
+		"name" : "Husbandry",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Stable",
+		"cost" : "150F",
+		"research_time" : 40,
+		"effect" : "Cavalry speed +10%"
+	},
+	{
+		"id" : 64,
+		"name" : "Scale Barding Armor",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Blacksmith",
+		"cost" : "150F",
+		"research_time" : 45,
+		"effect" : "Cavalry armor +1\/+1"
+	},
+	{
+		"id" : 66,
+		"name" : "Chain Barding Armor",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Blacksmith",
+		"cost" : "250F, 150G",
+		"research_time" : 60,
+		"effect" : "Cavalry armor +1\/+1"
+	},
+	{
+		"id" : 67,
+		"name" : "Plate Barding Armor",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Blacksmith",
+		"cost" : "350F, 200G",
+		"research_time" : 75,
+		"effect" : "Cavalry armor +1\/+2"
+	},
+	{
+		"id" : 68,
+		"name" : "Careening",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Dock",
+		"cost" : "250F, 150G",
+		"research_time" : 50,
+		"effect" : "Ship armor +1, Transport Ship capacity +5"
+	},
+	{
+		"id" : 69,
+		"name" : "Dry Dock",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Dock",
+		"cost" : "600F, 400G",
+		"research_time" : 60,
+		"effect" : "Ship speed +15%, Transport Ship capacity +10"
+	},
+	{
+		"id" : 70,
+		"name" : "Shipwright",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Dock",
+		"cost" : "1000F, 300G",
+		"research_time" : 60,
+		"effect" : "Ships cost -20% wood and are built 54% faster"
+	},
+	{
+		"id" : 71,
+		"name" : "Loom",
+		"release_id" : 1,
+		"age" : 1,
+		"researched_at" : "Town Center",
+		"cost" : "50G",
+		"research_time" : 25,
+		"effect" : "Villagers +15 HP, +1\/+2 armor"
+	},
+	{
+		"id" : 72,
+		"name" : "Feudal Age",
+		"release_id" : 1,
+		"age" : 1,
+		"researched_at" : "Town Center",
+		"cost" : "500F",
+		"research_time" : 130,
+		"effect" : "Advance to Feudal Age"
+	},
+	{
+		"id" : 73,
+		"name" : "Castle Age",
+		"release_id" : 1,
+		"age" : 2,
+		"researched_at" : "Town Center",
+		"cost" : "800F, 200G",
+		"research_time" : 160,
+		"effect" : "Advance to Castle Age"
+	},
+	{
+		"id" : 74,
+		"name" : "Imperial Age",
+		"release_id" : 1,
+		"age" : 3,
+		"researched_at" : "Town Center",
+		"cost" : "1000F, 800G",
+		"research_time" : 190,
+		"effect" : "Advance to Imperial Age"
+	},
+	{
+		"id" : 75,
+		"name" : "Treason",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Castle",
+		"cost" : "400",
+		"research_time" : 0,
+		"effect" : "See enemy Kings for a short time"
+	},
+	{
+		"id" : 76,
+		"name" : "Sappers",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Castle",
+		"cost" : "400F, 200G",
+		"research_time" : 10,
+		"effect" : "Villagers +15 attack against buildings and stone defense, Villagers chop down trees with one strike"
+	},
+	{
+		"id" : 77,
+		"name" : "Spies",
+		"release_id" : 1,
+		"age" : 4,
+		"researched_at" : "Castle",
+		"cost" : "200 per enemy Villager",
+		"research_time" : 1,
+		"effect" : "See enemy's Line of Sight"
+	}
+]}

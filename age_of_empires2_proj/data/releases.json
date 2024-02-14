@@ -1,0 +1,44 @@
+{
+    "releases": [
+        {
+            "id" : 1,
+            "name" : "The Age of Kings",
+            "release_date" : "1999-09-27"
+        },        
+        {
+            "id" : 2,
+            "name" : "The Conquerors",
+            "release_date" : "2000-08-25"
+        },
+        {
+            "id" : 3,
+            "name" : "The Forgotten",
+            "release_date" : "2013-11-07"
+        },
+        {
+            "id" : 4,
+            "name" : "The African Kingdoms",
+            "release_date" : "2013-11-05"
+        },
+        {
+            "id" : 5,
+            "name" : "Rise of the Rajas",
+            "release_date" : "2016-12-19"
+        },
+        {
+            "id" : 6,
+            "name" : "The Last Khans",
+            "release_date" : "2019-11-14"
+        },
+        {
+            "id" : 7,
+            "name" : "Lords of the West",
+            "release_date" : "2021-01-26"
+        },
+        {
+            "id" : 8,
+            "name" : "Definitive Edition",
+            "release_date" : "2019-11-14"
+        }
+    ]
+}    
