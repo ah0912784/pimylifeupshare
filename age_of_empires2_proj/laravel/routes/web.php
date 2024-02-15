@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-use App\Http\Controllers\Web\CivilizationController;
-use App\Http\Controllers\Web\BuildingController;
-use App\Http\Controllers\Web\TechnologyController;
-use App\Http\Controllers\Web\UnitController;
+use app\Http\Controllers\Web\CivilizationController;
+use app\Http\Controllers\Web\BuildingController;
+use app\Http\Controllers\Web\TechnologyController;
+use app\Http\Controllers\Web\UnitController;
 
 Route::get('/civilizations', [CivilizationController::class, 'index']);
 Route::get('/buildings', [BuildingController::class, 'index']);
