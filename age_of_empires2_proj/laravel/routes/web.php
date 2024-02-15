@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\Web\CivilizationController;
+use App\Http\Controllers\Web\BuildingController;
+use App\Http\Controllers\Web\TechnologyController;
+use App\Http\Controllers\Web\UnitController;
+
+Route::get('/civilizations', [CivilizationController::class, 'index']);
+Route::get('/buildings', [BuildingController::class, 'index']);
+Route::get('/technologies', [TechnologyController::class, 'index']);
+Route::get('/units', [UnitController::class, 'index']);
+
+

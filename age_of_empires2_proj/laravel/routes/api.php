@@ -14,6 +14,34 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+use App\Http\Controllers\CivilizationController;
+use App\Http\Controllers\BuildingController;
+use App\Http\Controllers\TechnologyController;
+use App\Http\Controllers\UnitController;
+
+Route::get('/civilizations', [CivilizationController::class, 'index']);
+Route::post('/civilizations', [CivilizationController::class, 'store']);
+Route::get('/civilizations/{id}', [CivilizationController::class, 'show']);
+Route::put('/civilizations/{id}', [CivilizationController::class, 'update']);
+Route::delete('/civilizations/{id}', [CivilizationController::class, 'destroy']);
+
+// Buildings Routes
+Route::get('/buildings', [BuildingController::class, 'index']);
+Route::post('/buildings', [BuildingController::class, 'store']);
+Route::get('/buildings/{id}', [BuildingController::class, 'show']);
+Route::put('/buildings/{id}', [BuildingController::class, 'update']);
+Route::delete('/buildings/{id}', [BuildingController::class, 'destroy']);
+
+// Technologies Routes
+Route::get('/technologies', [TechnologyController::class, 'index']);
+Route::post('/technologies', [TechnologyController::class, 'store']);
+Route::get('/technologies/{id}', [TechnologyController::class, 'show']);
+Route::put('/technologies/{id}', [TechnologyController::class, 'update']);
+Route::delete('/technologies/{id}', [TechnologyController::class, 'destroy']);
+
+// Units Routes
+Route::get('/units', [UnitController::class, 'index']);
+Route::post('/units', [UnitController::class, 'store']);
+Route::get('/units/{id}', [UnitController::class, 'show']);
+Route::put('/units/{id}', [UnitController::class, 'update']);
+Route::delete('/units/{id}', [UnitController::class, 'destroy']);
